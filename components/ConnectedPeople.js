@@ -42,12 +42,12 @@ class ConnectedPeople extends React.Component {
 
         if(!firebase.apps.length) {
             let database = firebase.initializeApp({
-                apiKey: "AIzaSyBIWJftH7QW3WBnsD4jomI3DuGjpiRcPTw",
-                authDomain: "sallyapp-895a4.firebaseapp.com",
-                databaseURL: "https://sallyapp-895a4.firebaseio.com",
-                projectId: "sallyapp-895a4",
-                storageBucket: "",
-                messagingSenderId: "285316895615"
+                apiKey: "AIzaSyAiuXzUOSVrIA6WCx1Ynh41QT28c7qAVfk",
+    authDomain: "sallyapp-6d21e.firebaseapp.com",
+    databaseURL: "https://sallyapp-6d21e.firebaseio.com",
+    projectId: "sallyapp-6d21e",
+    storageBucket: "sallyapp-6d21e.appspot.com",
+    messagingSenderId: "175977396961"
             });
             
             var databaseDataAsArray = {}
