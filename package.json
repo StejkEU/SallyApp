@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "buzz": "^1.2.0",
+    "dotenv": "^6.2.0",
     "express": "^4.15.4",
     "firebase": "^4.5.0",
     "next": "latest",
@@ -23,8 +24,7 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.1.0",
     "socket.io": "^2.0.3",
-    "socket.io-client": "^2.0.3",
-    "dotenv": "latest"
+    "socket.io-client": "^2.0.3"
   },
   "license": "ISC"
 }
