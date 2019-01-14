@@ -1,22 +1,16 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import Document, { Head, Main, NextScript } from 'next/document';
 
 export default class MyDocument extends Document {
 
 	render() {
+        ReactGA.initialize('UA-77526103-2');
+        ReactGA.pageview(window.location.pathname + window.location.search);
+
 		return (
 			<html>
                 <head>
-                    <!-- Global site tag (gtag.js) - Google Analytics -->
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77526103-2"></script>
-                    <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-
-                        gtag('config', 'UA-77526103-2');
-                    </script>
-
                     <Head>
                         <title>Sally App</title>
                     </Head>
