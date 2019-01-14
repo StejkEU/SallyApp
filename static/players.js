@@ -1,38 +1,26 @@
 export default [
     {
-        "name": "Adrian"
+        "name": "Jakub Stejskal"
     },
     {
-        "name": "Bart"
+        "name": "Filip Kubík"
     },
     {
-        "name": "Cees"
+        "name": "Tomáš Pilát"
     },
     {
-        "name": "Dylan"
+        "name": "Tomáš Krajniak"
     },
     {
-        "name": "Emre"
+        "name": "Martin Lanta"
     },
     {
-        "name": "Fien"
+        "name": "Jakub Shier"
     },
     {
-        "name": "Fillip"
+        "name": "Jakub Kratina"
     },
     {
-        "name": "John"
-    },
-    {
-        "name": "Martina"
-    },
-    {
-        "name": "Michael"
-    },
-    {
-        "name": "Rutger"
-    },
-    {
-        "name": "Guest"
+        "name": "Zdeněk Slezák"
     }
 ]
