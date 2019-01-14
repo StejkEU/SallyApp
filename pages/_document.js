@@ -1,9 +1,5 @@
 import React from 'react';
-import ReactGA from 'react-ga';
 import Document, { Head, Main, NextScript } from 'next/document';
-
-ReactGA.initialize('UA-77526103-2');
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default class MyDocument extends Document {
 
