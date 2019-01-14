@@ -108,12 +108,12 @@ main.prepare()
 function initializeFirebase() {
   var firebase = require('firebase');  
   var firebaseObj = firebase.initializeApp({
-    apiKey: "AIzaSyAiuXzUOSVrIA6WCx1Ynh41QT28c7qAVfk",
-    authDomain: "sallyapp-6d21e.firebaseapp.com",
-    databaseURL: "https://sallyapp-6d21e.firebaseio.com",
-    projectId: "sallyapp-6d21e",
-    storageBucket: "sallyapp-6d21e.appspot.com",
-    messagingSenderId: "175977396961"
+    apiKey: process.env.fb_api_key,
+    authDomain: process.env.fb_auth_domain,
+    databaseURL: process.env.fb_database_url,
+    projectId: process.env.fb_project_id,
+    storageBucket: process.env.fb_storage_bucket,
+    messagingSenderId: process.env.fb_messaging_sender_id,
   });
 
   // Get a reference to the database service
