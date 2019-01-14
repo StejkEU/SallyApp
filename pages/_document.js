@@ -7,6 +7,16 @@ export default class MyDocument extends Document {
 		return (
 			<html>
                 <head>
+                    <!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77526103-2"></script>
+                    <script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'UA-77526103-2');
+                    </script>
+
                     <Head>
                         <title>Sally App Sally Down</title>
                     </Head>
@@ -16,6 +26,7 @@ export default class MyDocument extends Document {
                     <link rel="manifest" href="" />
                     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet" />
                     <link href='static/main.css' rel='stylesheet' type='text/css' />
+
                 </head>
 
 				<body id="sallyApp">
