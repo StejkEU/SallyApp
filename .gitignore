@@ -2,3 +2,4 @@
 .next/
 static/users.json
 .idea
+.env
