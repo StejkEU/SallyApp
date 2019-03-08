@@ -124,9 +124,6 @@ class Stats extends React.Component {
                                                         className={highestScoreByDate[ date ] == seconds ? 'daily-winner' : ''}>
                                                         <span>{score[ 1 ]}</span>
                                                         <span>{score[ 2 ]}</span>
-                                                        <br/>
-                                                        <span>{score[ 1 ]}</span>
-                                                        <span>{score[ 2 ]}</span>
                                                     </td>
                                                 )
                                             }
