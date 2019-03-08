@@ -22,8 +22,5 @@ export default [
     },
     {
         "name": "Zdeněk Slezák"
-    },
-    {
-        "name": "Honza Tabery"
     }
 ]
