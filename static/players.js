@@ -22,5 +22,17 @@ export default [
     },
     {
         "name": "Zdeněk Slezák"
-    }
+    },
+    {
+        "name": "Honza Tabery"
+    },
+    {
+        "name": "Petra Schönfeldová"
+    },
+    {
+        "name": "Diana Gallasová"
+    },
+    {
+        "name": "Valerie Tolia"
+    },
 ]
