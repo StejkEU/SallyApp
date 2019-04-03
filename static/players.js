@@ -35,4 +35,7 @@ export default [
     {
         "name": "Valerie Tolia"
     },
+    {
+        "name": "Tomáš Holenda"
+    },
 ]
